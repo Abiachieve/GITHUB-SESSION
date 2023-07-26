@@ -1,0 +1,71 @@
+Javascript looping
+While loop
+It loops through a block of code as long as specified condition is true.
+syntax:
+While(condition)
+{
+//block of code
+}
+
+Do While
+Executes the body first and check the condition satisfy or not
+do{
+    //block
+}
+while(condition)
+
+Java math methods
+------------------
+=>Math.floor
+console.log(Math.floor(5.9));//5
+console.log(Math.floor(-4.9));//-5
+
+=>Math.ceil
+console.log(Math.ceil(5.1));//6
+console.log(Math.ceil(-4.9));//-4
+
+=>Math.round
+console.log(Math.round(6.6));//7
+console.log(Math.round(6.5));//7
+console.log(Math.round(5.4));//5
+console.log(Math.round(-5.4));//-5
+console.log(Math.round(-6.5));//-6
+console.log(Math.round(-5.6));//-6
+
+=>Math.sqrt
+console.log(Math.sqrt(25));//5
+console.log(Math.sqrt(-25));//NAN
+console.log(Math.sqrt(0));//0
+
+==>Math.cbrt
+console.log(Math.cbrt(27));
+console.log(Math.cbrt(125));
+console.log(Math.cbrt(-27));
+console.log(Math.cbrt(0));
+
+=>Math.abs
+console.log(Math.abs(27));
+console.log(Math.abs(125));
+console.log(Math.abs(-27.6));
+
+=>Math.trunc
+console.log(Math.trunc(27));
+console.log(Math.trunc(125));
+console.log(Math.trunc(-27.6));
+
+=>Math.min
+console.log(Math.min(27,6,89,34));
+console.log(Math.min(125.8,6,89,34));
+console.log(Math.min(-27.6,6,89,34));
+
+=>Math.max
+console.log(Math.max(27,6,89,34));
+console.log(Math.max(125.8,6,89,34));
+console.log(Math.max(-27.6,6,89,34));
+
+=>Math.pow
+console.log(Math.pow(2,5));//2*2*2*2*2
+
+
+=>Math.random
+console.log(Math.random()*5);
